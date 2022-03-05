@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Registration</title>
+    </header>
+</html>
+<body>
+    <h3>Registracija</h3><br>
+    <form action="./registracijadone.html">
+        <label for="vName"> *Vardas: </label>
+        <input type="text" name="vName" id="vName" required><br><br>
+        <label for="pName"> *Pavardė:</label>
+        <input type="text" name="pName" id="pName" required><br><br>
+    
+        <label for="email">*Email:</label>
+        <input type="text" placeholder="Enter Email" name="email" id="email" required> <br><br>
+        
+        <label for="Telefonas">Telefonas:</label>
+        <input type="numbers" name="Telefonas" id="Telefonas"><br><br>
+
+        <label for="Description">Description:</label>
+        <textarea name="Description" maxlenght="200"></textarea><br><br>
+
+        <label for="Moteris">Moteris:</label>
+        <input type="radio" name="Lytis" id="Moteris">
+        <label for="Vyras">Vyras:</label>
+        <input type="radio" name="Lytis" id="Vyras"><br><br>
+
+        <label for="Gimimo data">Gimimo data:</label>
+        <input type="date" name="Gimimo data" id="Gimimo data" required><br><br>
+
+        <label for="miestas">Gimimo vieta:</label>
+        <Select name="miestas">
+            <option value>Pasirinkite</option>
+            <option value>Vilnius</option>
+            <option value>Kaunas</option>
+            <option value>Alytus</option>
+            <option value>Pakruojis</option>
+            <option value>Palanga</option>
+        </Select><br><br>
+
+        <label for="Adresas">Adresas:</label>
+        <input type="text" name="Adresas" id="Adresas"><br><br>
+
+        <label for="sutikimas">Ar sutinkate gauti reklamas?</label>
+        <input type="checkbox" name="sutikimas" id="sutikimas"><br><br>
+
+        <input type="reset" value="Išvalyti formą">
+
+        <input type="Submit" value="Registracija">
+    </form>
+</body>
