@@ -1,0 +1,25 @@
+table, td, th {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th {
+    height: 70px; width: 70px;
+}
+td {
+    height: 70px; width: 70px;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background: blue;
+}
+.green {
+    background: green
+}
+.yellow {
+    background: yellow;
+}
+.gray {
+    background: gray;
+}

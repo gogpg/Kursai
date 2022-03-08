@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    
+}
+h1 {text-align: center; color: red;}
+h2 {text-align: center; color:blue; font-size: small;}
+.ppp {text-align:left; font-style: italic;}
+
+.pp {text-align: center; color: green; font-weight: 800;}
+
+div {
+    width: 50px; 
+    height: 50px;
+}
+div.violet {
+    background:blueviolet}
+div.green { 
+    background:green
+}
+div.red {
+    background:red
+}
