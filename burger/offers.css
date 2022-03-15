@@ -1,0 +1,43 @@
+.offers {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 108px;
+}
+.big-card {
+    background: url(./assets/big_card.png);
+    height: 420px;
+    width: 596px;
+    padding: 30px 24px;
+}
+.big-card div, .card1 div, .card2 div {
+    width: 30%;
+}
+
+.card1 {
+    background: url(./assets/card1.png);
+    height: 192px;
+    width: 596px;
+    padding: 30px 24px;
+    margin-bottom: 38px;
+
+}
+.card2 {
+    background: url(./assets/card2.png);
+    height: 192px;
+    width: 596px;
+    padding: 30px 24px;
+}
+.big-card h4, .big-card h2, .card1 h4, .card1 h2, .card2 h2, .card2 h4 {
+    font-family: "Bebas Neue", cursive;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+.big-card h4, .card1 h4, .card2 h4 {
+    font-size: 25px;
+}
+.big-card h2, .card1 h2, .card2 h2 {
+    font-size: 38px;
+}
+
+
