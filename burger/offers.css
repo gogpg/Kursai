@@ -9,7 +9,7 @@
     width: 596px;
     padding: 30px 24px;
 }
-.big-card div, .card1 div, .card2 div {
+.card1 div, .card2 div {
     width: 30%;
 }
 
