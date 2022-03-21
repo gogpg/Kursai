@@ -1,0 +1,63 @@
+footer {
+    position: relative;
+    margin: 0 auto 80px;
+    max-width: 1326px;
+    color: #ffffff;
+}
+footer .top-side {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    top: 58px;
+    left: 20px;
+    padding: 24px;
+}
+footer .top-side .logo-wraper {
+    flex: 0 0 100%;
+    margin-bottom: 50px;
+}
+footer .text-and-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+footer .top-side p {
+    width: 42%;
+    font-size: 17px;
+    line-height: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+footer .contact li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-right: 96px;
+}
+footer .contacts li:last-of-type {
+    margin-bottom: 0;
+}
+footer .contact span {
+    font-size: 21px;
+    margin-left: 34px;
+    font-weight: 700;
+    font-family: "Bebas Neue";
+}
+footer .bottom-side {
+    position: absolute;
+    display: flex;
+    width: 100%;
+   justify-content: space-between;
+    padding: 20px 30px;
+    left: 14px;
+    bottom: 0px;
+}
+footer .bottom-side small {
+    font-size: 17px;
+    font-family: "Bebas Neue";
+}
+ footer .social-media {
+    display: flex;
+}
+footer .social-media li {
+    margin-left: 14px;
+}

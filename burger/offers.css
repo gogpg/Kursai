@@ -1,7 +1,10 @@
 .offers {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
-    padding: 80px 108px;
+    padding: 8px 108px;
 }
 .big-card {
     background: url(./assets/big_card.png);

@@ -3,6 +3,7 @@
     margin: auto;
     padding: 0 202px;
     text-align: center;
+    margin-top: 65px;
     margin-bottom: 68px;
 
 }
@@ -33,42 +34,6 @@
     line-height: 1.5;
 }
 
-.three-burgers {
-    max-width: 1440px;
-    margin: 0 auto 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-}
-.first-burger, .second-burger, .third-burger {
-    text-align: center;
-}
-.first-burger h4, .second-burger h4, .third-burger h4 {
-    font-size: 38px;
-    color: #3d2514;
-    font-weight: 700;
-    font-family: "Bebas Neue";
-    margin-bottom: 30px;
-} 
-.first-burger p, .second-burger p, .third-burger p {
-    width: 332px;
-    font-size: 17px;
-    line-height: 21px;
-    color: #3d2514;
-    font-family: "Montserrat";
-    margin: auto;
-    margin-bottom: 38px
 
-}
-.first-burger button, .second-burger button, .third-burger button {
-    width: 194px;
-    padding: 20px 32px 19px;
-    background-color: #bf2222;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Alfa Slab One';
-    border: none;
 
-}
 
