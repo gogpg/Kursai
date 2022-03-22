@@ -1,0 +1,8 @@
+:root {
+    --background-primary: green;
+    --background-secondary: yellow;
+    --brand-shadow: 0 0 0 5px blue;
+    --padding-sm: 90px 70px;
+    --margin-original: 50px;
+    --font-big: 30px;
+}

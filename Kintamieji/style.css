@@ -1,0 +1,39 @@
+
+body {
+    background: var(--background-primary);
+}
+.cube {
+    width: 120px;
+    height: 100px;
+    margin: var(--margin-original);
+    background: var(--background-secondary);
+    box-shadow: var(--brand-shadow);
+}
+.cube :last-of-type {
+    font-size: var(--font-big);
+}
+.with-margin {
+    margin: 30px;
+    width: 60px;
+    height: 60px;
+    background: gray;
+}
+.margin-0 {
+    margin: 0;
+}
+.registration__form-button {
+    border: 2px solid black;
+    background: fuchsia;
+    color: blue;
+}
+.registration__form-button--cancel {
+    color: red;
+}
+.registration__form-button--confirm {
+    color: green;
+}
+.registration__button {
+    border: 2px solid blueviolet;
+    background: black;
+    color: white;
+}
