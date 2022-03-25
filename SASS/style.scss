@@ -1,0 +1,56 @@
+@mixin cube ($ismatavimai: 100px) {
+                width: $ismatavimai;
+                height: $ismatavimai;
+    
+}
+@mixin layaut-flexcenter ($horizontal: center, $vertical: center) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+    
+}
+
+$pavadinimas: blue;
+div 
+    {
+       @include cube;
+       background: $pavadinimas;
+       @include layaut-flexcenter;
+       margin-bottom: 10px;
+    
+     div { 
+       @include cube(70px);
+        background: red; 
+
+        div {
+            @include cube(50px);
+            background: black;
+
+        }
+    }
+}
+
+.flex {
+    @include layaut-flexcenter;
+    @include cube(200px);
+    font-size: 30px;
+
+}
+
+.form {
+    input {
+        background: red;
+        width: 200px;
+        height: 200px;
+    }
+    label{
+        background: blue;
+        width: 150px;
+        height: 150px;
+    }
+    button {
+        background: yellow;
+        width: 100px;
+        height: 100px;
+    }
+}
