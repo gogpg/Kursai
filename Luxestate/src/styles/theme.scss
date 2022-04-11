@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
+
+$text-color: #1f373d;
+$primary-y: #ffcc01;
+$secondary-b: #96bece;
+$tertiary-g: #919eb1;
+$border-color: #1f373d;
+$white: white;
+$background: #f6f5f4;
+
+$tablet: 768px;
+$desktop: 1024px;
+
+$border-radius: 5px;
+$text-size: 13px;
+$text-spacing: -1px;
+
+$mobile-margin: 44px;
+$desktop-margin: 144px;
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color: $text-color;
+}
+
+@mixin flex-layout($horizontal: center, $vertical: center) {
+    display: flex;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+@mixin paragraph {
+   font-size: $text-size;
+    line-height: 30px;
+    color: $text-color;
+}

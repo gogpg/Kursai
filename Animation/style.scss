@@ -1,0 +1,51 @@
+
+
+.loading {
+    width: 100px;
+    height: 100px;
+    border: 4px dotted blueviolet;
+    border-bottom: none;
+    border-right: none;
+    border-radius: 50%;
+    animation-name: spinning;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes spinning {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+     }
+}
+/*main {
+    position: relative;
+    height: 100%;
+}*/
+.button {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    
+
+    menu {
+        position: absolute;
+        top: -100%;
+        transition: top 300ms ease-in-out;
+
+    }
+
+        &:hover {
+           
+            menu {
+                top: 0;
+                background: red;
+            
+            }
+        }
+    }
+    
+
